@@ -37,3 +37,4 @@ overridedb.*
 static
 node_modules
 .cache
+*.marko.js
