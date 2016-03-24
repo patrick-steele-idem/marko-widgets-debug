@@ -3,7 +3,7 @@ module.exports = require('marko-widgets').defineComponent({
 
   getTemplateData: function(state, input) {
     return {
-      time: new Date()
+      time: state.time
     };
   },
 
